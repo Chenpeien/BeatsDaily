@@ -1,0 +1,212 @@
+html{
+    font-family: 'sans-serif';
+    height: 100%;
+
+}
+body{
+    background:#d7d3c6;
+    height: 100%;
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;  
+     
+    
+}
+
+h2{
+   
+    margin-left: 20px;
+}
+
+h3{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.border{
+    border-style:solid;
+    border-width:5px;
+    border-color:#e2ddcf;
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:50px;
+    
+}
+
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.show{
+    display: none;
+}
+.moreButton{
+    cursor: pointer;
+    background-color: #d7d3c6;
+    border:#d7d3c6;
+    font-size:14px;
+}
+.moreButton:hover{
+    color: brown;
+    font-size:16px;
+}
+.video{
+    display: none;
+}
+
+/*search bar*/
+*{
+    box-sizing: border-box;
+    padding:0px; 
+    margin:0px;
+    list-style:none;
+}
+
+a{
+ text-decoration: none;
+ color: #3D1101;
+}
+.wrap{
+ max-width: 960px;
+ margin:20px auto 0 auto;
+ height: auto;
+}
+.search{
+    position: relative;
+    width: 80%;
+    float: left; 
+}
+.search-bar{
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    border: 3px solid #3D1101;
+    background-color: #efe9e7;
+}
+.search-btn{
+    width: 36px;
+    height: 32px;
+    background-color: #3D1101;
+    color:#efe9e7;
+    outline:none;
+    border: 2px solid #3D1101;
+    cursor: pointer; 
+    position: absolute;
+    top: 0;
+    right: 0; 
+}
+
+/* 圖片輪播 */
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;  
+}
+ 
+a img {
+	border: none;
+}
+ 
+#abgne-block-20110406 {
+	margin: 0 auto;
+	width: 632px;	/* 框架圖片的寬 */
+	height: 438px;	/* 框架圖片的高 */
+	position: relative;
+}
+ 
+#abgne-block-20110406 a.prev, #abgne-block-20110406 a.next {
+	position: absolute;
+	top: 200px;
+	display: block;
+	width: 25px;	/* 左右鈕圖片的寬 */
+	height: 25px;	/* 左右鈕圖片的高 */
+	text-indent: -9999px;
+}
+ 
+#abgne-block-20110406 .prev {
+	background: url('https://w7.pngwing.com/pngs/157/60/png-transparent-computer-icons-button-symbol-left-arrow-text-number-internet.png') no-repeat;
+    border-radius:10px;
+    background-size: 100%;
+}
+ 
+#abgne-block-20110406 .next {
+	background: url('https://img.favpng.com/25/0/16/right-arrow-png-favpng-m4EUuVMwSt3YSf8UyRxgKJytG.jpg') no-repeat;
+	right: 0;
+    background-size: 130%;
+}
+ 
+#abgne-block-20110406 .slides {
+	overflow: hidden;
+	position: relative;
+	top: 32px;
+	left: 30px;
+	width: 574px;	/* 框架中間區塊的寬 */
+	height: 376px;	/* 框架中間區塊的高 */
+}
+ 
+#abgne-block-20110406 .slides ul {
+	position: absolute;
+	width: 9990px;
+	height: 100%;
+}
+ 
+#abgne-block-20110406 .slides li {
+	width: 574px;	/* 框架中間區塊的寬 */
+	height: 100%;
+	float: left;
+}
+/* 動畫輪播 */
+/* #abgneBlock {
+    margin-left:150px;
+	width: 735px;
+	height: 315px;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #3D1101;
+}
+#abgneBlock ul.list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	width: 9999px;
+	height: 100%;
+}
+#abgneBlock ul.list li {
+	float: left;
+	width: 735px;
+	height: 100%;
+}
+#abgneBlock .list img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+#abgneBlock ul.playerControl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	height: 14px;
+}
+#abgneBlock ul.playerControl li {
+	float: left;
+	width: 23px;
+	height: 14px;
+	cursor: pointer;
+	margin: 0px 2px;
+	background: url(images/rect_ctrl.png) no-repeat 0 0;
+}
+#abgneBlock ul.playerControl li.current { 
+	background-position: -23px 0;
+} */
