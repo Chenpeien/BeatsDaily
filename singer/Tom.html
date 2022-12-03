@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BeatsDaily</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+  <body>
+   
+
+    <h1>
+      <p>
+      <br>Singer<br>
+      </p>
+    </h1>
+
+    <style type="text/css">
+            
+      </style>
+
+      <div class="border">
+        <h2>
+          Tom Misch - You’re On My Mind
+        </h2>
+        <h3>
+          <p>
+            收錄在他2018年發行的專輯Geography中，英國創作歌手Tom Misch在這首歌中想要傳達的消息很簡單，就如歌名一樣，表示著對一個人的愛慕。
+            有時我們的腦海中就是會不知不覺地一直想到某個人，毫無原因地、時時刻刻地想著某個人。
+            <span class="dots">...</span>
+            <span class="moreText show" class="more"><br>
+            <br>24歲的Tom Misch在這張專輯中每一首歌的「氣氛」都非常的到位。配著清澈乾淨的歌聲，並從爵士、靈魂風格為主的旋律加入了電子音樂的元素，例如取樣、變奏等，聽起來輕鬆、舒適又極具特色。<br>
+            <br>我個人非常推薦大家去聽聽這張專輯！
+            </span>
+            <button class="moreButton"><u>Read more</u></button>
+          </p>
+          <span class="moreVideo show" class="video">
+            <center>
+              <iframe width="560" height="315"  src="https://www.youtube.com/embed/0t9beWP_2Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </center>
+          
+        </h3> 
+      </div>
+
+        <script>
+          const moreButton = document.querySelector('.moreButton')
+          moreButton.addEventListener('click', function(){
+            document.querySelector('.moreText').classList.toggle('show')
+            document.querySelector('.moreVideo').classList.toggle('show')
+            document.querySelector('.moreButton').classList.toggle('show')
+            document.querySelector('.dots').classList.toggle('show')
+          })
+          
+        </script>
+    
+  </body>
+</html>
