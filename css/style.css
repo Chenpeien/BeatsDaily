@@ -137,21 +137,21 @@ a{
 .font-Segoe{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: .04em;
+    color:black;
    
 }
 
 .category1{
-    margin-left:648px;
-
+    margin-left:588px;
     margin-bottom: 80px;
 }
 
 .category2{
     margin-bottom:80px;
-    margin-left:20px;
+    margin-left:80px;
 }
 
 .category3{
     margin-bottom: 80px;
-    margin-left:15px;
+    margin-left:60px;
 }
