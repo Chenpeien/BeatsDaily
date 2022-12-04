@@ -120,6 +120,7 @@ a{
 /* 歌曲框框 */
 .ccle {
 	margin: 0px auto;
+    text-align: center;
 }
 .ccle div {
     padding:20px;
@@ -136,8 +137,7 @@ a{
     color:#4d3900;
     font-family:monospace;
     text-align: left;
-    margin-left: 135px;
-    margin-right: -110px;
+
 }
 .ccle .brth {
 	color: #000;
