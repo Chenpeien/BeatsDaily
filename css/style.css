@@ -145,14 +145,15 @@ a{
     font-size:35px;
     font-family:'san-serif';
     text-align: left;
-}
-.ccle a {
     margin-top: 20px;
     margin-bottom:20px;
     width: 350px;
 	height: 30px;
     display: inline-block;
 }
+/* .ccle a {
+    
+} */
 .ccle img{
     margin-top: 5px;
     float:right;
