@@ -116,9 +116,10 @@ a{
     margin-bottom: 80px;
     margin-left:60px;
 }
+
+/* 歌曲框框 */
 .ccle {
 	margin: 0px auto;
-	text-align:center;
 }
 .ccle div {
     padding:20px;
@@ -128,13 +129,15 @@ a{
 	height: 210px;
 	border: 5px solid #e2ddcf;
 	border-radius: 3px;
-	margin: 35px;
+	margin: 20px;
     font-size:18.5px;
     line-height: 28px;
     font-weight: lighter; 
     color:#4d3900;
     font-family:monospace;
     text-align: left;
+    margin-left: 140px;
+    margin-right: -110px;
 }
 .ccle .brth {
 	color: #000;
