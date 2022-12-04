@@ -12,19 +12,22 @@ h1{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;  
-     
+    color:black
     
 }
 
 h2{
    
     margin-left: 20px;
+    color:black
 }
 
 h3{
     
     margin-left: 20px;
     margin-right: 20px;
+    /*text-align: left;*/
+    color:black
 }
 
 .border{

@@ -61,3 +61,48 @@ section{
 .video{
     display: none;
 }
+
+/* 功能鍵 */
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+    text-align: center;
+}
+
+
+.font-Segoe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4em;
+    color:black;
+   
+}
+
+.category1{
+    margin-left:288px;
+    margin-bottom: 80px;
+}
+
+.category2{
+    margin-bottom:80px;
+    margin-left:88px;
+}
+
+.category3{
+    margin-bottom: 80px;
+    margin-left:88px;
+}
+
+.category4{
+    margin-bottom:80px;
+    margin-left: 88px;
+}
+
+.category5{
+    margin-bottom:80px;
+    margin-left:88px;
+}
+
+.category6{
+    margin-bottom: 80px;
+    margin-left:88px;
+}

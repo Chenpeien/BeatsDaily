@@ -3,15 +3,14 @@ html{
     height: 100%;
 
 }
-
-
 body{
     background:#d7d3c6;
     height: 100%;
 }
 
 h1{
-    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;    
 }
 
@@ -23,32 +22,6 @@ h2{
 h3{
     margin-left: 20px;
     margin-right: 20px;
-}
-
-
-section{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
-
-.show{
-    display: none;
-}
-.moreButton{
-    cursor: pointer;
-    background-color: #d7d3c6;
-    border:#d7d3c6;
-    font-size:14px;
-}
-.moreButton:hover{
-    color: brown;
-    font-size:16px;
-}
-.video{
-    display: none;
 }
 
 
@@ -143,42 +116,42 @@ a{
     margin-bottom: 80px;
     margin-left:60px;
 }
-
-/* 歌曲框 */
-.song-border{
-    margin: 20px; 
+.ccle {
+	margin: 0px auto;
+	text-align:center;
 }
-
-.clearfix{
-    clear: both;
-  }
-
-.font-set{
+.ccle div {
+    padding:20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 550px;
+	height: 210px;
+	border: 5px solid #e2ddcf;
+	border-radius: 3px;
+	margin: 35px;
+    font-size:18.5px;
     line-height: 28px;
-    margin-top:30px;
-    font-size: 18.5px;
     font-weight: lighter; 
     color:#4d3900;
     font-family:monospace;
+    text-align: left;
 }
-
-/* 歌曲邊界 */
-.border{
-    border-style:solid;
-    border-width:5px;
-    border-color:#e2ddcf;
-    margin-left:150px;
-    margin-right:800px;
-    margin-top:50px;
-
-
+.ccle .brth {
+	color: #000;
+	line-height: 20px;
+    font-size:35px;
+    font-family:'san-serif';
+    text-align: left;
 }
-
-.border1{
-    border-style:solid;
-    border-width:5px;
-    border-color:#e2ddcf;
-    margin-left:800px;
-    margin-right:150px;
-
+.ccle a {
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 350px;
+	height: 30px;
+    display: inline-block;
 }
+.ccle img{
+    margin-top: 5px;
+    float:right;
+    }
+    
