@@ -92,10 +92,15 @@ a{
     text-decoration: none;
     text-decoration-color: black;
     text-align: center;
+    color:black;
 }
 
+img{
+    margin-top:5px;
+    width:40px;
+}
 
-.font-Segoe{
+.font-Segoe {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: .04em;
     color:black;
